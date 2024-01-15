@@ -7,8 +7,6 @@ import threading
 import win32con
 import win32gui
 import win32api
-import win32con
-import win32gui
 from colormap import color_mapping
 from pynput import keyboard
 from rich.console import Console
@@ -27,7 +25,7 @@ color_keys = list(color_mapping.keys())
 
 # Config
 def load_config():
-    global GLOBAL_DELAY
+    global GLOBAL_DELAY, GLOBAGL_DEBUG
     try:
         with open('colorconfig.json', 'r') as config_file:
             config = json.load(config_file)
