@@ -1,0 +1,14 @@
+{
+    "overlay_color": "black",
+    "delay": 1,
+    "debug": true,
+    "transparency": 0.8,
+    "window_title": "D2Bot #  20.6.7.100",
+    "other_title_array": [
+        "Schedule Editor",
+        "Add D2 Profile",
+        "Key List Editor",
+        "Add IRC Profile",
+        "Edit D2 Profile"
+    ]
+}
